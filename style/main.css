@@ -1,0 +1,56 @@
+body {
+	background-color: #000000;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	color: #860c0c;
+	font-size: 1.5rem;
+}
+
+nav {
+	color: #ff8300;
+	font-size: 0.75rem;
+}
+
+nav a {
+	color: #ff8300;
+}
+
+.flexbox{
+	display: flex;
+}
+
+#allwrapper{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#right-content {
+	margin-left: 35px;
+	background-image: url("../images/bat-country-fly-animated.gif");
+	background-repeat: no-repeat;
+	background-position: 20% 0%;
+}
+
+.center {
+	text-align: center;
+}
+
+#maincontent {
+	background-color: #ff8300;
+	background-image: radial-gradient( #ffff63, #fe6601 );
+	border-radius: 20px;
+	font-size: 0.75rem;
+	padding: 1.5rem;
+}
+
+footer {
+	color: #ff8300;	
+	font-size: 0.75rem;
+	background-image: url("../images/rip.gif"), url("../images/grass.gif");
+	padding-top: 35px;
+	padding-bottom: 65px;
+    background-repeat: no-repeat, repeat-x;
+    background-position: 0px 3px, bottom left;
+}
